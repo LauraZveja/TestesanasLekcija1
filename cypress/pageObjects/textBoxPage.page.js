@@ -1,4 +1,6 @@
-class TextBoxPage{
+import BasePage from "./base.page";
+
+class TextBoxPage extends BasePage{
 
 static get url(){
     return "/text-box";
